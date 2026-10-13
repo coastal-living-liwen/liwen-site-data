@@ -1,0 +1,40 @@
+name: 更新在售物件與實價登錄
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 每天台灣時間 06:00
+    - cron: "0 4 * * *"    # 每天台灣時間 12:00
+  workflow_dispatch:        # 也可以在 Actions 頁面手動按「Run workflow」
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓有巢氏在售物件
+        run: python build_listings.py --out data
+
+      # 物件那步失敗也照樣更新實價登錄；整個工作仍會標成失敗，GitHub 會寄信通知
+      - name: 抓內政部實價登錄
+        if: always()
+        run: python build_lvr.py --out data
+
+      - name: 有變動才存檔
+        if: always()
+        run: |
+          git config user.name "liwen-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "資料沒有變動"
+          else
+            git commit -m "資料更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+            git push
+          fi
