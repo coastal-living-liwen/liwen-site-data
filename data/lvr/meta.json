@@ -1,11 +1,11 @@
 {
- "synced": "2026-10-14 12:30",
+ "synced": "2026-10-15 06:16",
  "release": "115/10/11",
  "seasons": [
   "115S3",
   "115S2"
  ],
- "cutoff": 1150414,
+ "cutoff": 1150415,
  "newA": 196,
  "newB": 59,
  "years": [
@@ -32,29 +32,29 @@
  "summary": [
   {
    "d": "沙鹿",
-   "countA": 277,
+   "countA": 274,
    "countB": 79,
-   "bld": 27.7,
-   "bldN": 60,
-   "house": 32.2,
-   "houseN": 36,
+   "bld": 27.6,
+   "bldN": 59,
+   "house": 32.1,
+   "houseN": 35,
    "pre": 32.3,
    "preN": 64
   },
   {
    "d": "梧棲",
-   "countA": 210,
-   "countB": 70,
+   "countA": 209,
+   "countB": 68,
    "bld": 20.4,
-   "bldN": 120,
+   "bldN": 119,
    "house": 30.5,
    "houseN": 18,
-   "pre": 25.2,
-   "preN": 58
+   "pre": 25.0,
+   "preN": 56
   },
   {
    "d": "清水",
-   "countA": 165,
+   "countA": 163,
    "countB": 22,
    "bld": 20.4,
    "bldN": 42,
@@ -76,14 +76,14 @@
   },
   {
    "d": "西屯",
-   "countA": 899,
-   "countB": 361,
-   "bld": 35.5,
-   "bldN": 484,
+   "countA": 893,
+   "countB": 360,
+   "bld": 35.4,
+   "bldN": 482,
    "house": 45.1,
    "houseN": 18,
    "pre": 75.4,
-   "preN": 300
+   "preN": 299
   }
  ],
  "source": "內政部不動產交易實價查詢服務網（開放資料）"
