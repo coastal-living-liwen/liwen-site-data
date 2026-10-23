@@ -1,11 +1,11 @@
 {
- "synced": "2026-10-23 12:30",
+ "synced": "2026-10-24 06:18",
  "release": "115/10/21",
  "seasons": [
   "115S3",
   "115S2"
  ],
- "cutoff": 1150423,
+ "cutoff": 1150424,
  "newA": 262,
  "newB": 12,
  "years": [
@@ -32,29 +32,29 @@
  "summary": [
   {
    "d": "沙鹿",
-   "countA": 249,
-   "countB": 75,
+   "countA": 241,
+   "countB": 72,
    "bld": 27.7,
    "bldN": 54,
-   "house": 32.2,
-   "houseN": 32,
-   "pre": 32.3,
-   "preN": 60
+   "house": 31.6,
+   "houseN": 30,
+   "pre": 32.8,
+   "preN": 57
   },
   {
    "d": "梧棲",
-   "countA": 199,
+   "countA": 196,
    "countB": 62,
    "bld": 20.4,
    "bldN": 114,
-   "house": 30.5,
-   "houseN": 16,
+   "house": 31.0,
+   "houseN": 13,
    "pre": 24.9,
    "preN": 50
   },
   {
    "d": "清水",
-   "countA": 147,
+   "countA": 146,
    "countB": 21,
    "bld": 20.7,
    "bldN": 38,
@@ -65,21 +65,21 @@
   },
   {
    "d": "龍井",
-   "countA": 232,
+   "countA": 220,
    "countB": 16,
-   "bld": 30.8,
-   "bldN": 47,
-   "house": 25.3,
-   "houseN": 15,
+   "bld": 30.3,
+   "bldN": 46,
+   "house": 25.2,
+   "houseN": 14,
    "pre": 27.3,
    "preN": 14
   },
   {
    "d": "西屯",
-   "countA": 942,
+   "countA": 938,
    "countB": 357,
    "bld": 35.7,
-   "bldN": 488,
+   "bldN": 485,
    "house": 44.4,
    "houseN": 19,
    "pre": 75.1,
