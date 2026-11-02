@@ -1,11 +1,11 @@
 {
- "synced": "2026-11-02 12:55",
+ "synced": "2026-11-03 06:28",
  "release": "115/11/01",
  "seasons": [
   "115S3",
   "115S2"
  ],
- "cutoff": 1150502,
+ "cutoff": 1150503,
  "newA": 302,
  "newB": 39,
  "years": [
@@ -32,10 +32,10 @@
  "summary": [
   {
    "d": "沙鹿",
-   "countA": 284,
+   "countA": 283,
    "countB": 80,
-   "bld": 27.7,
-   "bldN": 63,
+   "bld": 27.5,
+   "bldN": 62,
    "house": 31.0,
    "houseN": 37,
    "pre": 33.1,
@@ -76,14 +76,14 @@
   },
   {
    "d": "西屯",
-   "countA": 981,
-   "countB": 373,
+   "countA": 977,
+   "countB": 372,
    "bld": 36.0,
-   "bldN": 499,
+   "bldN": 496,
    "house": 43.5,
    "houseN": 25,
-   "pre": 75.4,
-   "preN": 318
+   "pre": 75.3,
+   "preN": 317
   }
  ],
  "source": "內政部不動產交易實價查詢服務網（開放資料）"
