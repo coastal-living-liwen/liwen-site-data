@@ -1,12 +1,12 @@
 {
- "synced": "2026-11-10 06:33",
+ "synced": "2026-11-10 12:48",
  "release": "115/11/01",
  "seasons": [
   "115S3",
   "115S2"
  ],
  "cutoff": 1150510,
- "newA": 302,
+ "newA": 303,
  "newB": 39,
  "years": [
   115,
@@ -32,10 +32,10 @@
  "summary": [
   {
    "d": "沙鹿",
-   "countA": 262,
+   "countA": 263,
    "countB": 74,
-   "bld": 27.9,
-   "bldN": 58,
+   "bld": 27.8,
+   "bldN": 59,
    "house": 31.0,
    "houseN": 36,
    "pre": 33.1,
