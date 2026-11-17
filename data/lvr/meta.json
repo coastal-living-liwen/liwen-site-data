@@ -1,11 +1,11 @@
 {
- "synced": "2026-11-16 20:34",
+ "synced": "2026-11-17 12:15",
  "release": "115/11/11",
  "seasons": [
   "115S3",
   "115S2"
  ],
- "cutoff": 1150516,
+ "cutoff": 1150517,
  "newA": 255,
  "newB": 26,
  "years": [
@@ -32,7 +32,7 @@
  "summary": [
   {
    "d": "沙鹿",
-   "countA": 278,
+   "countA": 277,
    "countB": 72,
    "bld": 27.8,
    "bldN": 63,
@@ -54,10 +54,10 @@
   },
   {
    "d": "清水",
-   "countA": 137,
+   "countA": 136,
    "countB": 17,
    "bld": 20.9,
-   "bldN": 38,
+   "bldN": 37,
    "house": 25.5,
    "houseN": 9,
    "pre": 28.9,
@@ -65,7 +65,7 @@
   },
   {
    "d": "龍井",
-   "countA": 207,
+   "countA": 205,
    "countB": 21,
    "bld": 31.3,
    "bldN": 42,
@@ -76,14 +76,14 @@
   },
   {
    "d": "西屯",
-   "countA": 924,
-   "countB": 366,
-   "bld": 36.3,
-   "bldN": 461,
+   "countA": 915,
+   "countB": 364,
+   "bld": 36.2,
+   "bldN": 455,
    "house": 43.5,
    "houseN": 25,
    "pre": 75.4,
-   "preN": 309
+   "preN": 308
   }
  ],
  "source": "內政部不動產交易實價查詢服務網（開放資料）"
